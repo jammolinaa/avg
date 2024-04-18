@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.register');
 });
 
 Route::resource('/estudiantes', EstudianteController::class);
@@ -23,3 +23,7 @@ Route::resource('/estudiantes', EstudianteController::class);
 Auth::routes();
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
