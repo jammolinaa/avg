@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    Estudiante      
+    Aprendiz
 @endsection
 
 @section('content')
@@ -13,11 +13,11 @@
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                {{ __('Estudiante') }}
+                                {{ __('Aprendiz') }}
                             </span>
 
                              <div class="float-right">
-                                <a href="{{ route('estudiantes.create') }}" class="btn btn-outline-primary"  data-placement="left">
+                                <a href="{{ route('aprendiz.create') }}" class="btn btn-outline-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Create New') }}
                                 </a>
                               </div>
@@ -36,7 +36,7 @@
                                     <tr>
                                         <th>No</th>
                                         
-										<th>Nombre</th>
+										<th>Nombre Completo</th>
 										<th>Pregunta1</th>
 										<th>Pregunta2</th>
 										<th>Pregunta3</th>
@@ -44,34 +44,28 @@
 										<th>Pregunta5</th>
 										<th>Pregunta6</th>
 										<th>Pregunta7</th>
-										<th>Pregunta8</th>
-										<th>Pregunta9</th>
-										<th>Pregunta10</th>
 
                                         <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($estudiantes as $estudiante)
+                                    @foreach ($aprendizs as $aprendiz)
                                         <tr>
                                             <td>{{ ++$i }}</td>
                                             
-											<td>{{ $estudiante->nombre }}</td>
-											<td>{{ $estudiante->pregunta1 }}</td>
-											<td>{{ $estudiante->pregunta2 }}</td>
-											<td>{{ $estudiante->pregunta3 }}</td>
-											<td>{{ $estudiante->pregunta4 }}</td>
-											<td>{{ $estudiante->pregunta5 }}</td>
-											<td>{{ $estudiante->pregunta6 }}</td>
-											<td>{{ $estudiante->pregunta7 }}</td>
-											<td>{{ $estudiante->pregunta8 }}</td>
-											<td>{{ $estudiante->pregunta9 }}</td>
-											<td>{{ $estudiante->pregunta10 }}</td>
+											<td>{{ $aprendiz->nombre_completo }}</td>
+											<td>{{ $aprendiz->pregunta1 }}</td>
+											<td>{{ $aprendiz->pregunta2 }}</td>
+											<td>{{ $aprendiz->pregunta3 }}</td>
+											<td>{{ $aprendiz->pregunta4 }}</td>
+											<td>{{ $aprendiz->pregunta5 }}</td>
+											<td>{{ $aprendiz->pregunta6 }}</td>
+											<td>{{ $aprendiz->pregunta7 }}</td>
 
                                             <td>
-                                                <form action="{{ route('estudiantes.destroy',$estudiante->id) }}" method="POST">
-                                                    <a class="btn btn-outline-primary" href="{{ route('estudiantes.show',$estudiante->id) }}"><i class="fa fa-fw fa-eye"></i> {{ __('Show') }}</a>
-                                                    <a class="btn btn-outline-success" href="{{ route('estudiantes.edit',$estudiante->id) }}"><i class="fa fa-fw fa-edit"></i> {{ __('Edit') }}</a>
+                                                <form action="{{ route('aprendiz.destroy',$aprendiz->id) }}" method="POST">
+                                                    <a class="btn btn-outline-primary " href="{{ route('aprendiz.show',$aprendiz->id) }}"><i class="fa fa-fw fa-eye"></i> {{ __('Show') }}</a>
+                                                    <a class="btn btn-outline-success" href="{{ route('aprendiz.edit',$aprendiz->id) }}"><i class="fa fa-fw fa-edit"></i> {{ __('Edit') }}</a>
                                                     @csrf
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-outline-danger"><i class="fa fa-fw fa-trash"></i> {{ __('Delete') }}</button>
@@ -84,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                {!! $estudiantes->links() !!}
+                {!! $aprendizs->links() !!}
             </div>
         </div>
     </div>

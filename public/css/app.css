@@ -1,0 +1,39 @@
+
+.puzzle{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+
+}
+label{
+    font-size: 26px;
+    
+}
+input{
+    width: 10px;
+    /* height: 50px; */
+}
+.card-circle{
+    background-color: #F0F3FA;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    /* width: 1000px; */
+}
+
+.py-4{
+    background-color: #D5DEEF;
+    position: relative;
+}
+.card-header{
+    text-align: center;
+}
+.card-title{
+    background-color: #D5DEEF;
+  
+}
+.card-body{
+    background-color: #D5DEEF;
+    
+}

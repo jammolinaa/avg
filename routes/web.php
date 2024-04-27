@@ -1,5 +1,5 @@
 <?php
-use App\Http\Controllers\EstudianteController;
+use App\Http\Controllers\AprendizController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -18,12 +18,8 @@ Route::get('/', function () {
     return view('auth.register');
 });
 
-Route::resource('/estudiantes', EstudianteController::class);
-
-Auth::routes();
-
-
-
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('aprendiz', AprendizController::class);
+
+Auth::routes();

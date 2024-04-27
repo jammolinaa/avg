@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Estudiante
+ * Class Aprendiz
  *
  * @property $id
- * @property $nombre
+ * @property $nombre_completo
  * @property $pregunta1
  * @property $pregunta2
  * @property $pregunta3
@@ -16,16 +16,13 @@ use Illuminate\Database\Eloquent\Model;
  * @property $pregunta5
  * @property $pregunta6
  * @property $pregunta7
- * @property $pregunta8
- * @property $pregunta9
- * @property $pregunta10
  * @property $created_at
  * @property $updated_at
  *
  * @package App
  * @mixin \Illuminate\Database\Eloquent\Builder
  */
-class Estudiante extends Model
+class Aprendiz extends Model
 {
     
 
@@ -36,7 +33,7 @@ class Estudiante extends Model
      *
      * @var array
      */
-    protected $fillable = ['nombre', 'pregunta1', 'pregunta2', 'pregunta3', 'pregunta4', 'pregunta5', 'pregunta6', 'pregunta7', 'pregunta8', 'pregunta9', 'pregunta10'];
+    protected $fillable = ['nombre_completo', 'pregunta1', 'pregunta2', 'pregunta3', 'pregunta4', 'pregunta5', 'pregunta6', 'pregunta7'];
 
 
 

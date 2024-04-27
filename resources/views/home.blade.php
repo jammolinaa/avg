@@ -15,6 +15,13 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <h1> Bienvenidos </h1>
+                    @role('Admin')
+                    <h1> Eres admin </h1> 
+                    @endrole
+                    @role('Usuarios')
+                    <h1> Eres estudiante </h1> 
+                    @endrole
                 </div>
             </div>
         </div>
