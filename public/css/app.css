@@ -37,3 +37,12 @@ input{
     background-color: #D5DEEF;
     
 }
+
+
+input{
+    
+    height: 50px;
+    width: 50px;
+    /* margin: 20px; */
+    /* justify-content: space-around; */
+}
