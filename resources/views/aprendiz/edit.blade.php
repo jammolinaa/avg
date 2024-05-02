@@ -7,12 +7,11 @@
 @section('content')
     <section class="content container-fluid">
         <div class="">
+            <div class="card-headers">
+                <span class="card-title">{{ __('Edit') }}</span>
+            </div>
             <div class="col-md-12">
-
-               
-                    <div class="card-headers">
-                        <span class="card-title">{{ __('Edit') }}</span>
-                    </div>
+                <div class="card">
                     <div class="card-body">
                         <form method="POST" action="{{ route('aprendiz.update', $aprendiz->id) }}"  role="form" enctype="multipart/form-data">
                             {{ method_field('PATCH') }}
@@ -22,7 +21,7 @@
 
                         </form>
                     </div>
-                
+                <div></div>
             </div>
         </div>
     </section>

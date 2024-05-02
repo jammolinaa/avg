@@ -19,15 +19,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
 
                  <input type="radio" id="pregunta1_a" name="pregunta1" value="A" required>
-                 <label for="pregunta1_a">A</label>
+                 <label for="pregunta1_a"></label>
                  <input type="radio" id="pregunta1_b" name="pregunta1" value="B" required>
-                 <label for="pregunta1_b">B</label>
+                 <label for="pregunta1_b"></label>
                  <input type="radio" id="pregunta1_c" name="pregunta1" value="C" required>
-                 <label for="pregunta1_c">C</label>
+                 <label for="pregunta1_c"></label>
                  <input type="radio" id="pregunta1_d" name="pregunta1" value="D" required>
-                 <label for="pregunta1_d">D</label>
+                 <label for="pregunta1_d"></label>
                  <input type="radio" id="pregunta1_e" name="pregunta1" value="E" required>
-                 <label for="pregunta1_e">E</label>
+                 <label for="pregunta1_e"></label>
             {!! $errors->first('pregunta1', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!} 
         </div><br>
 
@@ -41,15 +41,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
 
                  <input type="radio" id="pregunta2_a" name="pregunta2" value="A" required>
-                 <label for="pregunta2_a">A</label>
+                 <label for="pregunta2_a"></label>
                  <input type="radio" id="pregunta2_b" name="pregunta2" value="B" required>
-                 <label for="pregunta2_b">B</label>
+                 <label for="pregunta2_b"></label>
                  <input type="radio" id="pregunta2_c" name="pregunta2" value="C" required>
-                 <label for="pregunta2_c">C</label>
+                 <label for="pregunta2_c"></label>
                  <input type="radio" id="pregunta2_d" name="pregunta2" value="D" required>
-                 <label for="pregunta2_d">D</label>
+                 <label for="pregunta2_d"></label>
                  <input type="radio" id="pregunta2_e" name="pregunta2" value="E" required>
-                 <label for="pregunta2_e">E</label>
+                 <label for="pregunta2_e"></label>
             {!! $errors->first('pregunta2', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!}
         </div><br>
 
@@ -63,15 +63,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
 
                 <input type="radio" id="pregunta3_a" name="pregunta3" value="A" required>
-                <label for="pregunta3_a">A</label>
+                <label for="pregunta3_a"></label>
                 <input type="radio" id="pregunta3_b" name="pregunta3" value="B" required>
-                <label for="pregunta3_b">B</label>
+                <label for="pregunta3_b"></label>
                 <input type="radio" id="pregunta3_c" name="pregunta3" value="C" required>
-                <label for="pregunta3_c">C</label>
+                <label for="pregunta3_c"></label>
                 <input type="radio" id="pregunta3_d" name="pregunta3" value="D" required>
-                <label for="pregunta3_d">D</label>
+                <label for="pregunta3_d"></label>
                 <input type="radio" id="pregunta3_e" name="pregunta3" value="E" required>
-                <label for="pregunta3_e">E</label>
+                <label for="pregunta3_e"></label>
                 {!! $errors->first('pregunta3', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!}
         </div><br>
 
@@ -85,15 +85,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
 
                 <input type="radio" id="pregunta4_a" name="pregunta4" value="A" required>
-                <label for="pregunta4_a">A</label>
+                <label for="pregunta4_a"></label>
                 <input type="radio" id="pregunta4_b" name="pregunta4" value="B" required>
-                <label for="pregunta4_b">B</label>
+                <label for="pregunta4_b"></label>
                 <input type="radio" id="pregunta4_c" name="pregunta4" value="C" required>
-                <label for="pregunta4_c">C</label>
+                <label for="pregunta4_c"></label>
                 <input type="radio" id="pregunta4_d" name="pregunta4" value="D" required>
-                <label for="pregunta4_d">D</label>
+                <label for="pregunta4_d"></label>
                 <input type="radio" id="pregunta4_e" name="pregunta4" value="E" required>
-                <label for="pregunta4_e">E</label>            
+                <label for="pregunta4_e"></label>            
                 {!! $errors->first('pregunta4', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!}
         </div><br>
 
@@ -107,15 +107,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
                 
                 <input type="radio" id="pregunta5_a" name="pregunta5" value="A" required>
-                <label for="pregunta5_a">A</label>
+                <label for="pregunta5_a"></label>
                 <input type="radio" id="pregunta5_b" name="pregunta5" value="B" required>
-                <label for="pregunta5_b">B</label>
+                <label for="pregunta5_b"></label>
                 <input type="radio" id="pregunta5_c" name="pregunta5" value="C" required>
-                <label for="pregunta5_c">C</label>
+                <label for="pregunta5_c"></label>
                 <input type="radio" id="pregunta5_d" name="pregunta5" value="D" required>
-                <label for="pregunta5_d">D</label>
+                <label for="pregunta5_d"></label>
                 <input type="radio" id="pregunta5_e" name="pregunta5" value="E" required>
-                <label for="pregunta5_e">E</label>
+                <label for="pregunta5_e"></label>
                 {!! $errors->first('pregunta5', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!}
         </div><br>
 
@@ -129,15 +129,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
                 
                 <input type="radio" id="pregunta6_a" name="pregunta6" value="A" required>
-                <label for="pregunta6_a">A</label>
+                <label for="pregunta6_a"></label>
                 <input type="radio" id="pregunta6_b" name="pregunta6" value="B" required>
-                <label for="pregunta6_b">B</label>
+                <label for="pregunta6_b"></label>
                 <input type="radio" id="pregunta6_c" name="pregunta6" value="C" required>
-                <label for="pregunta6_c">C</label>
+                <label for="pregunta6_c"></label>
                 <input type="radio" id="pregunta6_d" name="pregunta6" value="D" required>
-                <label for="pregunta6_d">D</label>
+                <label for="pregunta6_d"></label>
                 <input type="radio" id="pregunta6_e" name="pregunta6" value="E" required>
-                <label for="pregunta6_e">E</label>
+                <label for="pregunta6_e"></label>
             {!! $errors->first('pregunta6', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!}
         </div><br>
 
@@ -152,15 +152,15 @@
                 <p>A continuación califica de menor a mayor tu percepción de esta competencia en ti:</p>
 
                 <input type="radio" id="pregunta7_a" name="pregunta7" value="A" required>
-                <label for="pregunta7_a">A</label>
+                <label for="pregunta7_a"></label>
                 <input type="radio" id="pregunta7_b" name="pregunta7" value="B" required>
-                <label for="pregunta7_b">B</label>
+                <label for="pregunta7_b"></label>
                 <input type="radio" id="pregunta7_c" name="pregunta7" value="C" required>
-                <label for="pregunta7_c">C</label>
+                <label for="pregunta7_c"></label>
                 <input type="radio" id="pregunta7_d" name="pregunta7" value="D" required>
-                <label for="pregunta7_d">D</label>
+                <label for="pregunta7_d"></label>
                 <input type="radio" id="pregunta7_e" name="pregunta7" value="E" required>
-                <label for="pregunta7_e">E</label>           
+                <label for="pregunta7_e"></label>           
                  {!! $errors->first('pregunta7', '<div class="invalid-feedback" role="alert"><strong>:message</strong></div>') !!}
         </div><br>
 
@@ -168,6 +168,5 @@
     </div>
     <div class="col-md-12 mt20 mt-2">
         <button type="submit" class="btn btn-outline-dark">{{ __('Submit') }}</button>
-        
     </div>
 </div>

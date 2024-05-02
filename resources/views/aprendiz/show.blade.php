@@ -5,25 +5,25 @@
 @endsection
 
 @section('content')
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+<div> 
+
+
     <section class="content container-fluid">
-        <div class="row">
+        <div class="fond">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
                         <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Aprendiz</span>
+                            <h2> Respuestas de {{ $aprendiz->nombre_completo }} </h2>
                         </div>
                         <div class="float-right">
                             <a class="btn btn-outline-primary btn-sm" href="{{ route('aprendiz.index') }}"> {{ __('Back') }}</a>
                         </div>
                     </div>
 
-                    <div class="card-body bg-white">
+                    <div class="card-body-show">
                         
-                        <div class="form-group mb-2 mb20">
-                            <strong>Nombre Completo:</strong>
-                            {{ $aprendiz->nombre_completo }}
-                        </div>
                         <div class="form-group mb-2 mb20">
                             <strong>Pregunta1:</strong>
                             {{ $aprendiz->pregunta1 }}
@@ -58,4 +58,5 @@
             </div>
         </div>
     </section>
+
 @endsection

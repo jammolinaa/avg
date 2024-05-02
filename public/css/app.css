@@ -26,6 +26,10 @@ input{
     background-color: #D5DEEF;
     position: relative;
 }
+.card{
+    background-color: #D5DEEF;
+
+}
 .card-header{
     text-align: center;
 }
@@ -37,12 +41,22 @@ input{
     background-color: #D5DEEF;
     
 }
-
-
+.card-body-show{
+    padding: 20px;
+    background-color: #F0F3FA;
+    
+}
+body{
+    background-color: #D5DEEF;
+}
+title{
+    font-size: 48px;
+}
 input{
     
     height: 50px;
     width: 50px;
-    /* margin: 20px; */
+    /* margin: 20px; */ 
     /* justify-content: space-around; */
 }
+
