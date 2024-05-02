@@ -19,9 +19,6 @@
                     @role('Admin')
                     <h1> Eres admin </h1> 
                     @endrole
-                    @role('Usuarios')
-                    <h1> Eres estudiante </h1> 
-                    @endrole
                 </div>
             </div>
         </div>

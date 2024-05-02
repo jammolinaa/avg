@@ -67,8 +67,9 @@
 											<td>{{ $aprendiz->pregunta5 }}</td>
 											<td>{{ $aprendiz->pregunta6 }}</td>
 											<td>{{ $aprendiz->pregunta7 }}</td>
-
-                                            <td>
+                                            
+                                            <td> 
+                                                @role('Admin')
                                                 <form action="{{ route('aprendiz.destroy',$aprendiz->id) }}" method="POST">
                                                     <a class="btn btn-outline-primary " href="{{ route('aprendiz.show',$aprendiz->id) }}"><i class="fa fa-fw fa-eye"></i> {{ __('Show') }}</a>
                                                     <a class="btn btn-outline-success" href="{{ route('aprendiz.edit',$aprendiz->id) }}"><i class="fa fa-fw fa-edit"></i> {{ __('Edit') }}</a>
@@ -76,6 +77,7 @@
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-outline-danger"><i class="fa fa-fw fa-trash"></i> {{ __('Delete') }}</button>
                                                 </form>
+                                                @endrole
                                             </td>
                                         </tr>
                                     @endforeach

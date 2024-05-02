@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/Encuesta.jpg);
+    background-size: cover;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99; 
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+}
+.logo{
+    position: relative;
+    font-size: 2.3rem;          
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navegacion a{
+    position: relative;
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navegacion a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -6px;
+    left: 0;
+    height: 2px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: tranSform .4s;
+}
+
+.navegacion a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navegacion .btn{
+    width: 140px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.navegacion .btn:hover{
+    background: #fff;
+    color: #090f1d;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 440px;
+    margin-top: 13% ;
+    margin-bottom: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 30px rgb(0, 0,0,.5);
+    /* transition: transform .5s ease height .2s;
+    transform: scale(0); */
+}
+.card .icono-cerrar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 1.8em;
+    color: black;
+} 
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+    color: black;
+    font-weight: bold;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: gray;
+    font-weight: bold;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    font-weight: bold;
+    color: black;
+}
+
+.links a{
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}

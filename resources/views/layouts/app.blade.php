@@ -49,8 +49,15 @@
                                 </li>
                             @endif
                         @else
+                        @role('Admin')
                         <li class="nav-item dropdown">
                             <a href="{{ route('aprendiz.index') }}" class="nav-link dropdown"  data-placement="left">
+                                {{ __('registros de aprendices') }}
+                              </a>
+                        </li>
+                        @endrole
+                        <li class="nav-item dropdown">
+                            <a href="{{ route('aprendiz.create') }}" class="nav-link dropdown"  data-placement="left">
                                 {{ __('aprendiz') }}
                               </a>
                         </li>
