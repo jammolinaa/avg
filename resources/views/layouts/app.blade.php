@@ -7,6 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/640px-Sena_Colombia_logo.svg.png">
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Fonts -->

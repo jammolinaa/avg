@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(../img/Encuesta.jpg);
+    background-image: url(../images/Encuesta.jpg);
     background-size: cover;
 }
 header{
